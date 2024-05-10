@@ -9,7 +9,7 @@ let userID = '77a571fb-4fd2-4b37-8596-1b7d9728bb5c';
 const proxyIPs = ["cdn.xn--b6gac.eu.org"]; //workers.cloudflare.cyou bestproxy.onecf.eu.org cdn-all.xn--b6gac.eu.org cdn.xn--b6gac.eu.org
 const cn_hostnames = [''];
 
-let proxyIP = proxyIPs[Math.floor(Math.random() * proxyIPs.length)];
+let proxyIP = '129.151.152.254'
 
 if (!isValidUUID(userID)) {
 	throw new Error('uuid is not valid');
